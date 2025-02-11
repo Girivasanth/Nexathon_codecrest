@@ -1,0 +1,559 @@
+.background-icon {
+    position: absolute;
+    right: -1581px;
+    bottom: -17px;
+    width: 1065px;
+    height: 535px;
+}
+.groups {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1064px;
+    height: 392px;
+}
+.background-icon1 {
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+    width: 1065px;
+    height: 535px;
+}
+.background {
+    position: absolute;
+    right: 1px;
+    bottom: 531px;
+    background-color: #6c71cf;
+    width: 1066px;
+    height: 74px;
+}
+.resource-managem {
+    position: absolute;
+    right: 282px;
+    bottom: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 299px;
+    height: 36px;
+}
+.groups1 {
+    position: absolute;
+    right: 2px;
+    bottom: 533px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1062px;
+    height: 71px;
+    font-size: 25.7px;
+    color: #3a4371;
+}
+.background1 {
+    position: absolute;
+    right: 1066px;
+    bottom: 0px;
+    background-color: #361b63;
+    width: 214px;
+    height: 605px;
+}
+.profile {
+    position: absolute;
+    right: 108px;
+    bottom: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 39px;
+    height: 15px;
+}
+.image-icon {
+    position: absolute;
+    right: 162px;
+    bottom: 16px;
+    width: 12px;
+    height: 13px;
+    object-fit: cover;
+}
+.groups2 {
+    position: absolute;
+    right: 1070px;
+    bottom: 42px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 209px;
+    height: 47px;
+    font-size: 11.6px;
+    color: #84929f;
+}
+.section {
+    position: absolute;
+    right: 108px;
+    bottom: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 46px;
+    height: 15px;
+}
+.data-analytics {
+    position: absolute;
+    right: 66px;
+    bottom: 29px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #7f8d9a;
+    display: flex;
+    align-items: center;
+    width: 88px;
+    height: 16px;
+}
+.image-icon1 {
+    position: absolute;
+    right: 162px;
+    bottom: 21px;
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+}
+.groups3 {
+    position: absolute;
+    right: 1070px;
+    bottom: 92px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 199px;
+    height: 57px;
+    font-size: 11.9px;
+    color: #83919e;
+}
+.al-chat-bot {
+    position: absolute;
+    right: 80px;
+    bottom: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 16px;
+}
+.image-icon2 {
+    position: absolute;
+    right: 157px;
+    bottom: 16px;
+    width: 17px;
+    height: 13px;
+    object-fit: cover;
+}
+.groups4 {
+    position: absolute;
+    right: 1070px;
+    bottom: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 202px;
+    height: 44px;
+    color: #808e9b;
+}
+.background-icon2 {
+    position: absolute;
+    right: 0px;
+    bottom: -7px;
+    border-radius: 4px 0px 3px 6px;
+    width: 208px;
+    height: 61px;
+    object-fit: cover;
+}
+.safety-alerts1 {
+    position: absolute;
+    right: 73px;
+    bottom: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 79px;
+    height: 17px;
+}
+.image-icon3 {
+    position: absolute;
+    right: 159px;
+    bottom: 16px;
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+}
+.safety-alerts {
+    position: absolute;
+    right: 1071px;
+    bottom: 194px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 191px;
+    height: 43px;
+    color: #b2cdf0;
+}
+.management {
+    position: absolute;
+    right: 51px;
+    bottom: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 81px;
+    height: 17px;
+}
+.resource {
+    position: absolute;
+    right: 74px;
+    bottom: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 58px;
+}
+.image-icon4 {
+    position: absolute;
+    right: 140px;
+    bottom: 22px;
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+}
+.groups5 {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 168px;
+    height: 59px;
+}
+.button {
+    position: absolute;
+    right: 1083px;
+    bottom: 239px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 174px;
+    height: 65px;
+}
+.settings {
+    position: absolute;
+    right: 97px;
+    bottom: 9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 17px;
+}
+.image-icon5 {
+    position: absolute;
+    right: 161px;
+    bottom: 11px;
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+}
+.groups6 {
+    position: absolute;
+    right: 1069px;
+    bottom: 307px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 203px;
+    height: 38px;
+    font-size: 11.8px;
+}
+.feedback-portal {
+    position: absolute;
+    right: 43px;
+    bottom: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 98px;
+}
+.image-icon6 {
+    position: absolute;
+    right: 156px;
+    bottom: 13px;
+    width: 17px;
+    height: 14px;
+    object-fit: cover;
+}
+.groups7 {
+    position: absolute;
+    right: 1071px;
+    bottom: 348px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 198px;
+    height: 42px;
+    font-size: 12.1px;
+    color: #83909e;
+}
+.alumni-connect {
+    position: absolute;
+    right: 47px;
+    bottom: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 97px;
+}
+.image-icon7 {
+    position: absolute;
+    right: 158px;
+    bottom: 16px;
+    width: 17px;
+    height: 14px;
+    object-fit: cover;
+}
+.groups8 {
+    position: absolute;
+    right: 1069px;
+    bottom: 390px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 201px;
+    height: 49px;
+    font-size: 12.1px;
+    color: #82909e;
+}
+.dashboard {
+    position: absolute;
+    right: 1147px;
+    bottom: 452px;
+    font-weight: 600;
+    color: #7f8c9a;
+    display: flex;
+    align-items: center;
+    width: 67px;
+}
+.image-icon8 {
+    position: absolute;
+    right: 1228px;
+    bottom: 450px;
+    width: 16px;
+    height: 14px;
+    object-fit: cover;
+}
+.background-icon3 {
+    position: absolute;
+    right: 1090px;
+    bottom: 499px;
+    width: 169px;
+    height: 1px;
+    object-fit: cover;
+}
+.background-icon4 {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 0px 0px 0px 4px;
+    width: 196px;
+    height: 92px;
+    object-fit: cover;
+}
+.classroom {
+    position: absolute;
+    right: 44px;
+    bottom: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 106px;
+    height: 21px;
+}
+.smart {
+    position: absolute;
+    right: 47px;
+    bottom: 46px;
+    font-size: 20.8px;
+    font-weight: 600;
+    color: #cedcf0;
+    display: flex;
+    align-items: center;
+    width: 62px;
+    height: 23px;
+}
+.image-icon9 {
+    position: absolute;
+    right: 119px;
+    bottom: 48px;
+    width: 26px;
+    height: 18px;
+    object-fit: cover;
+}
+.groups9 {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 196px;
+    height: 91px;
+}
+.button1 {
+    position: absolute;
+    right: 1073px;
+    bottom: 510px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 202px;
+    height: 94px;
+    font-size: 19.9px;
+    color: #ccddf1;
+}
+.table-child {
+    position: absolute;
+    top: 34px;
+    left: 4px;
+    background-color: #05425d;
+    width: 1048px;
+    height: 103px;
+    overflow: hidden;
+}
+.hours {
+    position: absolute;
+    right: 511px;
+    bottom: 15px;
+    font-size: 12.8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 49px;
+    height: 16px;
+}
+.laptop {
+    position: absolute;
+    right: 878px;
+    bottom: 13px;
+    font-size: 12.9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 74px;
+    height: 17px;
+}
+.hours1 {
+    position: absolute;
+    right: 437px;
+    bottom: 46px;
+    font-size: 12.8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 123px;
+    height: 16px;
+}
+.projector {
+    position: absolute;
+    right: 893px;
+    bottom: 45px;
+    font-size: 12.9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 59px;
+    height: 17px;
+}
+.hours2 {
+    position: absolute;
+    right: 447px;
+    bottom: 77px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 113px;
+}
+.hours3 {
+    position: absolute;
+    right: 54px;
+    bottom: 77px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 148px;
+}
+.hours4 {
+    position: absolute;
+    right: 54px;
+    bottom: 46px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 148px;
+}
+.hours5 {
+    position: absolute;
+    right: 54px;
+    bottom: 15px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 148px;
+}
+.computer {
+    position: absolute;
+    right: 887px;
+    bottom: 77px;
+    font-size: 12.9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 65px;
+}
+.status {
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 161px;
+}
+.uptime {
+    position: absolute;
+    right: 460px;
+    bottom: 8px;
+    font-size: 12.9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 97px;
+    height: 17px;
+}
+.resource-name {
+    position: absolute;
+    right: 859px;
+    bottom: 9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 103px;
+}
+.status-parent {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    background-color: #fc8948;
+    width: 1048px;
+    height: 34px;
+    overflow: hidden;
+}
+.table {
+    position: absolute;
+    right: 6px;
+    bottom: 376px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 1057px;
+    height: 136px;
+    font-size: 13.2px;
+    color: #fff;
+}
+.root {
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 605px;
+    text-align: left;
+    font-size: 12.2px;
+    color: #818f9d;
+    font-family: Inter;
+}
+
+
+
