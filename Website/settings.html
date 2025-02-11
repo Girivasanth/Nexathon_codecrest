@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Settings - Smart Classroom</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar Navigation -->
+            <nav class="col-md-2 d-none d-md-block sidebar">
+                <div class="p-3">
+                    <h3 class="text-center">
+                        <i class="fas fa-graduation-cap me-2"></i>
+                        <a href="index.html" style="text-decoration: none; color: inherit;">Smart Classroom</a>
+                    </h3>
+                    <hr class="text-white" />
+                    <ul class="nav flex-column mt-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fas fa-home me-2"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="alumni-connect.html">
+                                <i class="fas fa-users me-2"></i>
+                                Alumni Connect
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback-portal.html">
+                                <i class="fas fa-comments me-2"></i>
+                                Feedback Portal
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="settings.html">
+                                <i class="fas fa-cog me-2"></i>
+                                Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resource-management.html">
+                                <i class="fa-solid fa-suitcase"></i>
+                                Resource Management
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="safety-alerts.html">
+                                <i class="fa-solid fa-list-check"></i>
+                                Attendance List
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="chatBot.html">
+                                <i class="fa-regular fa-comments"></i>
+                                AI Chat Bot
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data-analytics.html">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                Data Analytics Section
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">
+                                <i class="fas fa-user me-2"></i>
+                                Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content Area -->
+            <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
+                <div class="content mt-4">
+                    <h2 class="mb-4">Settings</h2>
+
+                    <div class="row">
+                        <!-- Settings Navigation -->
+                        <div class="col-md-3">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+                                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#account">
+                                            <i class="fas fa-user-circle me-2"></i>Account
+                                        </button>
+                                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#notifications">
+                                            <i class="fas fa-bell me-2"></i>Notifications
+                                        </button>
+                                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#privacy">
+                                            <i class="fas fa-shield-alt me-2"></i>Privacy
+                                        </button>
+                                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#appearance">
+                                            <i class="fas fa-paint-brush me-2"></i>Appearance
+                                        </button>
+                                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#security">
+                                            <i class="fas fa-lock me-2"></i>Security
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Settings Content -->
+                        <div class="col-md-9">
+                            <div class="tab-content">
+                                <!-- Account Settings -->
+                                <div class="tab-pane fade show active" id="account">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Account Settings</h5>
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Email Address</label>
+                                                    <input type="email" class="form-control" value="john@example.com">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Username</label>
+                                                    <input type="text" class="form-control" value="johndoe">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Language</label>
+                                                    <select class="form-select">
+                                                        <option>English</option>
+                                                        <option>Spanish</option>
+                                                        <option>French</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Time Zone</label>
+                                                    <select class="form-select">
+                                                        <option>UTC (GMT+0)</option>
+                                                        <option>EST (GMT-5)</option>
+                                                        <option>PST (GMT-8)</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Notifications Settings -->
+                                <div class="tab-pane fade" id="notifications">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Notification Preferences</h5>
+                                            <div class="mb-3">
+                                                <label class="form-label d-block">Email Notifications</label>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" checked>
+                                                    <label class="form-check-label">New messages</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" checked>
+                                                    <label class="form-check-label">Event updates</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">Newsletter</label>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label d-block">Push Notifications</label>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" checked>
+                                                    <label class="form-check-label">Enable push notifications</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Privacy Settings -->
+                                <div class="tab-pane fade" id="privacy">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Privacy Settings</h5>
+                                            <div class="mb-3">
+                                                <label class="form-label d-block">Profile Visibility</label>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="visibility" checked>
+                                                    <label class="form-check-label">Public</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="visibility">
+                                                    <label class="form-check-label">Private</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Appearance Settings -->
+                                <div class="tab-pane fade" id="appearance">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Appearance Settings</h5>
+                                            <div class="mb-3">
+                                                <label class="form-label">Theme</label>
+                                                <select class="form-select">
+                                                    <option>Light</option>
+                                                    <option>Dark</option>
+                                                    <option>System Default</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Font Size</label>
+                                                <select class="form-select">
+                                                    <option>Small</option>
+                                                    <option selected>Medium</option>
+                                                    <option>Large</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Security Settings -->
+                                <div class="tab-pane fade" id="security">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Security Settings</h5>
+                                            <div class="mb-3">
+                                                <label class="form-label">Change Password</label>
+                                                <input type="password" class="form-control mb-2" placeholder="Current Password">
+                                                <input type="password" class="form-control mb-2" placeholder="New Password">
+                                                <input type="password" class="form-control" placeholder="Confirm New Password">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label d-block">Two-Factor Authentication</label>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">Enable 2FA</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Active nav link
+        const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html> 

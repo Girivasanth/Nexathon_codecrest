@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Smart Classroom</title>
+    <link rel="stylesheet" href="login-pg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+
+            <div class="form-1">
+                <p class="title">Login</p>
+                <div class="input-field">
+                  <input required="" placeholder="Enter Roll No" class="input roll" type="text" />
+        
+                </div>
+                <div class="input-field">
+                  <input required="" placeholder="Enter Password" class="input pass" type="password" />
+                </div>
+                <a>Forgot your password?</a>
+                <button class="submit-btn">Sign In</button>
+              </div>
+            </div>
+      </div>
+    
+    <script>
+       const btn = document.querySelector('.submit-btn');
+    console.log('hi');
+    btn.addEventListener('click',()=>{
+      console.log('clicked');
+      const username = document.querySelector('.roll');
+      const password = document.querySelector('.pass');
+      if(username.value==='111' && password.value==="123"){
+        window.location.href= "index.html"
+      }
+    })
+    </script>
+</body>
+</html>

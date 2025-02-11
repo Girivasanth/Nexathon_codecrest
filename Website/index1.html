@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Alert System</title>
+    <style>
+        /* Popup styles */
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: red;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="popup">🚨 Fire Alert! 🚨</div>
+
+    <script>
+        function checkAlert() {
+            fetch("alert.txt")
+                .then(response => response.text())
+                .then(data => {
+                    if (data.trim() == "1") {
+                        document.getElementById("popup").style.display = "block"; // Show popup
+
+                        setTimeout(() => {
+                            document.getElementById("popup").style.display = "none"; // Hide after 10 seconds
+                        }, 10000);
+                    }
+                });
+        }
+
+        // Check for updates every 3 seconds
+        setInterval(checkAlert, 3000);
+    </script>
+
+</body>
+</html>
